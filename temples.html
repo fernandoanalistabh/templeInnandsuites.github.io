@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Assignment portal page for Fernando Student in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <title>Temple Inn and Suites</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <source srcset="images/banner-small.jpg" media="max-width: 600px">
+            <source srcset="images/banner-large.jpg" media="max-width: 600px">
+            <img id="banner" src="images/banner-large.jpg" alt="Banner Rome Temple">
+        </picture>
+        <h1 id="title">Temple Inn and Suites</h1>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul id="bar">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li class="active"><a href="temples.html">Temples</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li class="active"><a href="#">Services</a>
+                    <ul>
+                        <li class="active"><a href="weddings.html">Weddings</a></li>
+                        <li class="active"><a href="missionaries.html">Temple Missionaries</a></li>                    
+                    </ul>
+                </li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple Inn and Suites</h2>
+        <section id="infomation">
+            <div> <h3>São Paulo Brazil Temple</h3>
+                <p>Address: Av. Prof. Francisco Morato, 2390 - Caxingui - 05512-300 - São Paulo - SP, Brazil</p>
+                <p>Telephone: (55) 11-3723-7600</p>
+                <p>Services: Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby</p>
+            </div>
+            <img src="images/SaoPauloTemple.jpg" alt="São Paulo Brazil Temple">
+            <div id="yellowSummary">
+                    <h3>Weather Summary</h3>
+                    <ul>
+                        <li>Currently: <span id="sWeatherDesc">&nbsp;</span></li>
+                        <li>High: <span id="sAirTemp">&nbsp;</span> ºF</li>
+                        <li>Wind Chill: <span id="sWindChill">&nbsp;</span> ºF</li>
+                        <li>Humidity: <span id="sHumidity">&nbsp;</span>%</li>
+                        <li>Wind Speed: <span id="sWindSpeed">&nbsp;</span> mph</li>
+                    </ul>
+            </div>
+        </section>
+        <section id="contact">
+                <img src="images/CampinasTemple.jpg" alt="São Paulo Brazil Temple">
+                <div> <h3>Campinas Brazil Temple</h3>
+                    <p>Address: Rua James Esdras Faust, 400 - Barrio Notre Dame - CEP 13092-820 Campinas - SP, Brazil</p>
+                    <p>Telephone: (55) 19-2102-5800</p>
+                    <p>Services: Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby</p>
+                </div>
+                <div id="blueSummary">
+                        <h3>Weather Summary</h3>
+                        <ul>
+                            <li>Currently: <span id="caWeatherDesc">&nbsp;</span></li>
+                            <li>High: <span id="caAirTemp">&nbsp;</span> ºF</li>
+                            <li>Wind Chill: <span id="caWindChill">&nbsp;</span> ºF</li>
+                            <li>Humidity: <span id="caHumidity">&nbsp;</span>%</li>
+                            <li>Wind Speed: <span id="caWindSpeed">&nbsp;</span> mph</li>
+                        </ul>
+                </div>
+        </section>
+        <section id="infomation">
+                <div> <h3>Curitiba Brazil Temple</h3>
+                    <p>Address: Rua Deputado Heitor Alencar Furtado, 3641 - Mossunguê - 81200-110 Curitiba - PR, Brazil</p>
+                    <p>Telephone: (55) 41-3204-6650</p>
+                    <p>Services: No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby</p>
+                </div>
+                <img src="images/CuritibaTemple.jpg" alt="São Paulo Brazil Temple">
+                <div id="yellowSummary">
+                        <h3>Weather Summary</h3>
+                        <ul>
+                            <li>Currently: <span id="cuWeatherDesc">&nbsp;</span></li>
+                            <li>High: <span id="cuAirTemp">&nbsp;</span> ºF</li>
+                            <li>Wind Chill: <span id="cuWindChill">&nbsp;</span> ºF</li>
+                            <li>Humidity: <span id="cuHumidity">&nbsp;</span>%</li>
+                            <li>Wind Speed: <span id="cuWindSpeed">&nbsp;</span> mph</li>
+                        </ul>
+                </div>
+        </section>
+        <section id="contact">
+                <img src="images/RecifeTemple.jpg" alt="Recife Brazil Temple">
+                <div> <h3>Recife Brazil Temple</h3>
+                    <p>Address: Rua Dr. José de Góes, 280 - Parnamirim - 52060-380 Recife - PE, Brazil</p>
+                    <p>Telephone: (55) 81-2129-4300</p>
+                    <p>Services: Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby</p>
+                </div>
+                <div id="blueSummary">
+                    <h3>Weather Summary</h3>
+                    <ul>
+                        <li>Currently: <span id="rWeatherDesc">&nbsp;</span></li>
+                        <li>High: <span id="rAirTemp">&nbsp;</span> ºF</li>
+                        <li>Wind Chill: <span id="rWindChill">&nbsp;</span> ºF</li>
+                        <li>Humidity: <span id="rHumidity">&nbsp;</span>%</li>
+                        <li>Wind Speed: <span id="rWindSpeed">&nbsp;</span> mph</li>
+                    </ul>
+                </div>
+        </section>
+    </main>
+    <footer>
+        &copy;2019 Temple Inn and Suites | Fernando José dos Santos | <a href="https://openweathermap.org/">Open Weather</a>
+        <br>
+        <div id="currentDate">&nbsp;</div>
+    </footer>
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>     

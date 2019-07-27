@@ -1,1 +1,0 @@
-# templeinnandsuites.github.io
